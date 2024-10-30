@@ -4,8 +4,8 @@
 #include "./internal/fft_internal.h"
 #include "./internal/fft.h"
 
-#include "./internal/fft.c"
-#include "./internal/kernel.c"
-#include "./internal/cpu.c"
+#include "./internal/fftc.h"
+#include "./internal/kernelc.h"
+#include "./internal/cpu.h"
 
 #endif

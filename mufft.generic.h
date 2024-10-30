@@ -16,6 +16,8 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
+#ifndef MUFFT_GENERIC
+#define MUFFT_GENERIC
 
 #undef MUFFT_HAVE_X86
 #undef MUFFT_HAVE_AVX
@@ -24,4 +26,6 @@
 #undef __AVX__
 
 #include "./internal.h"
+
+#endif
 

@@ -16,6 +16,9 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
+#ifndef MUFFT_X86
+#define MUFFT_X86
+
 #ifndef MUFFT_HAVE_X86
 #define MUFFT_HAVE_X86
 #endif
@@ -27,4 +30,4 @@
 #include "./internal/kernel.h"
 #include "./internal.h"
 
-
+#endif
